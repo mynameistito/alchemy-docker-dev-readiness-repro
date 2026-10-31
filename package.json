@@ -1,0 +1,21 @@
+{
+  "name": "alchemy-docker-dev-readiness-repro",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "alchemy dev --stage repro --no-input" },
+  "dependencies": {
+    "@effect/platform-bun": "4.0.7",
+    "@effect/platform-node": "4.0.7",
+    "alchemy": "2.0.0-beta.84",
+    "@alchemy.run/cloudflare": "2.0.0-beta.84",
+    "@cloudflare/containers": "0.3.7",
+    "effect": "4.0.7"
+  },
+  "overrides": {
+    "effect": "4.0.7",
+    "@effect/platform-bun": "4.0.7",
+    "@effect/platform-node": "4.0.7",
+    "@effect/platform-node-shared": "4.0.7",
+    "workerd": "1.20261029.1"
+  }
+}
